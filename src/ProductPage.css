@@ -1,0 +1,67 @@
+.product-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.product-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.product-description {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.product-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+  text-align: center;
+}
+
+.product-features {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-features li {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  color: #b12704;
+  margin: 20px 0;
+}
+
+.booking-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking-button:hover {
+  background-color: #0056b3;
+}

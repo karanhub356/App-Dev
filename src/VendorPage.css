@@ -1,0 +1,26 @@
+/* src/VendorPage.css */
+
+.vendorpage-container {
+    padding: 2rem;
+  }
+  
+  .hero-text {
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtext {
+    margin-bottom: 2rem;
+  }
+  
+  .section-title {
+    margin-bottom: 2rem;
+  }
+  
+  .feature-card {
+    max-width: 345px;
+  }
+  
+  .contact-button {
+    margin-top: 1rem;
+  }
+  

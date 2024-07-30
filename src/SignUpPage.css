@@ -1,0 +1,96 @@
+/* SignUpPage.css */
+
+.signup-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-paper {
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  backdrop-filter: blur(10px); /* Blur effect for a modern look */
+}
+
+.signup-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.signup-subtitle {
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.signup-error {
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.signup-input {
+  font-family: 'Roboto', sans-serif;
+}
+
+.signup-button {
+  background-color: #1976d2; /* Primary blue color */
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #155a9a; /* Darker blue on hover */
+}
+
+.signup-link {
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.signup-link-text {
+  color: #1976d2; /* Primary blue color for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-link-text:hover {
+  color: #155a9a; /* Darker blue on hover */
+}
+
+/* General styling for all input fields */
+.MuiInputBase-root {
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent input background */
+  border-radius: 5px;
+}
+
+/* Adjust the icon button for toggling password visibility */
+.MuiIconButton-root {
+  color: #1976d2;
+}
