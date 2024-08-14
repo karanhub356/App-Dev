@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "90e1",
+      "name": "Visitors",
+      "email": "mkaran030506@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "90e2",
+      "name": "Naveen",
+      "email": "l.m.naveen2.0@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "fa53",
+      "name": "Karan Adhitya",
+      "email": "Kd@gmail.com",
+      "password": "9876"
+    },
+    {
+      "id": "aad8",
+      "name": "Naveen ",
+      "email": "nav@gmail.com",
+      "password": "9876"
+    }
+  ]
+}
